@@ -37,7 +37,7 @@ const SingleNote = ({note,key, notes, setNotes}: Props)=> {
 
                 <div className="flex text-2xl items-start mt-2">
                     <AiTwotoneDelete onClick={function(){handleDelete(note.id)}} className="mx-2 cursor-pointer" />
-                 
+
                     <TiTick onClick={()=>handleDone(note.id)} className="mx-2 cursor-pointer" />
                 </div>
 
